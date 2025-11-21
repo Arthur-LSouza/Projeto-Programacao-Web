@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/perguntas.css">
+    <script src="../js/index.js"></script>
+    <title>Quiz F1</title>
+</head>
+<body>
+     <h1>Qual piloto conquistou o maior número de vitórias na história da Fórmula 1?</h1>
+ <div class="botao">
+        <form action="http://localhost/quiz/php/resposta.php" method="POST">
+            <input type="hidden" name="correto" value="0">
+            <input type="hidden" name="proxima" value="http://localhost/quiz/html/segunda.html">
+            <button type="submit">Michael Schumacher</button>
+        </form>
+        
+        <form action="http://localhost/quiz/php/resposta.php" method="POST">
+        <input type="hidden" name="correto" value="0">
+        <input type="hidden" name="proxima" value="http://localhost/quiz/html/segunda.html">
+        <button type="submit">Sebastian Vettel</button>
+    </form>
+
+    <form action="http://localhost/quiz/php/resposta.php" method="POST">
+        <input type="hidden" name="correto" value="1">
+        <input type="hidden" name="proxima" value="http://localhost/quiz/html/segunda.html">
+        <button type="submit">Lewis Hamilton</button>
+    </form>
+    
+    <form action="http://localhost/quiz/php/resposta.php" method="POST">
+        <input type="hidden" name="correto" value="0">
+        <input type="hidden" name="proxima" value="http://localhost/quiz/html/segunda.html">
+        <button type="submit">Ayrton Senna</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 70px;
+}
+
+img{
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height:100px;
+    border-radius: 10px;
+    border-color: rgb(49, 49, 49);
+    background-color:  rgb(31, 31, 31);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
